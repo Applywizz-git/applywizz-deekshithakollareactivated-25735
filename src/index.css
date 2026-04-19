@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #10B981; /* Emerald Green - Precision */
+  --color-secondary: #059669; /* Sea Green */
+  --color-dark-bg: #0A0A0A; /* Deep Obsidian */
+  --color-alt-bg: #111111;
+  --color-text-primary: #F1F5F9;
+  --color-text-secondary: #64748B;
+
+  --font-headlines: 'Geist Sans', sans-serif;
+  --font-mono: 'Geist Mono', monospace;
+}
+
+:root {
+  background-color: var(--color-dark-bg);
+  color: var(--color-text-primary);
+}
+
+/* Navigation Styles */
+.nav-item-link {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.active-nav-item {
+  background-color: #ffffff !important;
+  color: #111111 !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.active-nav-item svg {
+  color: #111111 !important;
+}
+
+@layer components {
+  .container-custom {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+}
+
+.architect-card {
+  background: #0D0D0D;
+  border-left: 2px solid rgba(16, 185, 129, 0.1);
+  transition: all 0.4s cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.architect-card:hover {
+  border-left-color: var(--color-primary);
+  background: #121212;
+  transform: translateX(10px);
+}
+
+.sidebar-border {
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.pipeline-node {
+  width: 12px;
+  height: 12px;
+  background: var(--color-primary);
+  border-radius: 2px;
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.5);
+}
+
+h1, h2, h3 { font-family: var(--font-headlines); font-weight: 800; text-transform: uppercase; }
+
+pre, code { font-family: var(--font-mono); }
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+}
+
+.glow-emerald {
+  box-shadow: 0 0 30px rgba(16, 185, 129, 0.1);
+}
