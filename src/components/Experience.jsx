@@ -43,7 +43,6 @@ const Experience = () => {
       <div className="container-custom">
         <div className="flex flex-col md:flex-row justify-between items-start mb-24 gap-12">
            <div className="md:w-1/2">
-              <span className="text-primary font-mono text-[10px] tracking-[0.5em] uppercase mb-4 block">PLATFORM_LOGS</span>
               <h2 className="text-white text-6xl font-black uppercase tracking-tighter">EXPERIENCE.</h2>
            </div>
            <p className="text-text-secondary md:w-1/3 leading-relaxed border-l-2 border-primary/20 pl-8 font-medium">

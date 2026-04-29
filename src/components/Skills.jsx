@@ -17,7 +17,6 @@ const Skills = () => {
        <div className="container-custom">
           <div className="flex flex-col md:flex-row justify-between items-center mb-24 gap-12">
              <div>
-                <span className="text-secondary font-mono text-[10px] tracking-[0.5em] uppercase mb-4 block">TECH_SPECS</span>
                 <h2 className="text-white text-6xl font-black uppercase tracking-tighter italic">CAPABILITIES.</h2>
              </div>
              <div className="flex gap-1">

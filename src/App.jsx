@@ -35,7 +35,7 @@ const Loader = () => {
     >
       <div className="w-full max-w-[500px] px-10">
         <div className="flex justify-between items-end mb-4 font-mono">
-           <span className="text-[10px] font-black text-primary tracking-[0.5em] uppercase">Boot_Sequence_v4.2</span>
+           <span className="text-[10px] font-black text-primary tracking-[0.5em] uppercase">DEEKSHITHA KOLLA</span>
            <span className="text-white font-black text-5xl">{progress}%</span>
         </div>
         

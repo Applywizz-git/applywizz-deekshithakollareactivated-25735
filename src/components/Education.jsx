@@ -22,7 +22,6 @@ const Education = () => {
     <section id="education" className="relative py-32 bg-dark-bg lg:pl-24 border-b border-white/5">
       <div className="container-custom">
         <div className="mb-20">
-          <span className="text-primary font-mono text-[10px] tracking-[0.5em] uppercase mb-4 block">QUALIFICATIONS</span>
           <h2 className="text-white text-5xl md:text-7xl font-black uppercase tracking-tighter italic leading-none">EDUCATION.</h2>
         </div>
 

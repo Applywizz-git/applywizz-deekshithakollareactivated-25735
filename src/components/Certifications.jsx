@@ -16,7 +16,6 @@ const Certifications = () => {
     <section id="certifications" className="relative py-32 bg-alt-bg/30 lg:pl-24">
       <div className="container-custom">
         <div className="mb-20">
-          <span className="text-secondary font-mono text-[10px] tracking-[0.5em] uppercase mb-4 block">CREDENTIALS</span>
           <h2 className="text-white text-5xl md:text-7xl font-black uppercase tracking-tighter italic leading-none">CERTIFICATIONS.</h2>
         </div>
 

@@ -32,7 +32,6 @@ const Projects = () => {
        <div className="container-custom">
           <div className="flex flex-col md:flex-row justify-between items-end mb-24 gap-12">
              <div>
-                <span className="text-primary font-mono text-[10px] tracking-[0.5em] uppercase mb-4 block">PROVISIONED_ASSETS</span>
                 <h2 className="text-white text-6xl font-black uppercase tracking-tighter">PROJECTS.</h2>
              </div>
              <p className="text-text-secondary md:w-1/3 leading-relaxed text-right font-medium italic opacity-50">

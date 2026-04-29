@@ -26,7 +26,6 @@ const About = () => {
       <div className="container-custom">
         <div className="grid lg:grid-cols-12 gap-20 items-start">
            <div className="lg:col-span-5">
-              <span className="text-primary font-mono text-[10px] tracking-[0.5em] uppercase mb-4 block">CORE_SUMMARY</span>
               <h2 className="text-white text-5xl md:text-7xl font-black uppercase tracking-tighter italic leading-none mb-10">PROFESSIONAL <br/> <span className="text-white/20">SUMMARY.</span></h2>
               <div className="w-20 h-1 bg-primary mb-10"></div>
            </div>
